@@ -9,7 +9,7 @@ export default function AboutUsPage() {
         <title>About Us</title>
         <meta name="description" content="Web site created using create-react-app" />
       </Helmet>
-      <div className="flex flex-col w-full pb-[1189px] gap-[41px] md:pb-5 bg-black-900">
+      <div className="flex flex-col w-full pb-[100px] gap-[41px] md:pb-5 bg-black-900">
         <div>
           <header className="flex flex-row justify-center items-center w-[100vwpx] p-2 bg-white-A700">
             <div className="flex md:flex-col justify-between items-center w-[100vwpx] md:w-full mt-[3px] gap-5 mx-auto max-w-[1810px]">
@@ -408,50 +408,54 @@ export default function AboutUsPage() {
                   </Heading>
                 </div>
               </div>
-              <Heading size="3xl" as="h1" className="mt-[199px] ml-[5px] md:ml-0 !font-abhayalibre !text-[90px]">
+              <Heading size="3xl" as="h1" className="mt-[150px] ml-[5px] md:ml-0 !font-abhayalibre !text-[90px]">
                 Our Vision
               </Heading>
-              <Heading size="lg" as="h1" className="mt-[95px] !text-indigo-A700_fc !text-[44px]">
+              <Heading size="lg" as="h1" className="mt-[25px] !text-indigo-A700_fc !text-[44px]">
                 Our vision is to unlock these six core values in the life of legal professionals through technology.
               </Heading>
-              <Heading as="h1" className="mt-[117px] ml-[5px] md:ml-0 !text-white-A700_fc !text-[44px]">
+             
+              <div className="self-stretch mt-[15px] ml-[5px] md:ml-0">
+                <div className="flex flex-col items-start">
+                <Heading as="h1" className="mt-[25px] ml-[5px] md:ml-0 !text-white-A700_fc !text-[44px]">
                 Impact
               </Heading>
-              <div className="self-stretch mt-[30px] ml-[5px] md:ml-0">
-                <div className="flex flex-col items-start">
                   <Text as="p" className="!text-xl">
                     Driving meaningful change in how you serve clients and achieve results.
                   </Text>
-                  <Heading as="h1" className="mt-[37px] !text-white-A700_fc !text-[44px]">
-                    Flexible and budget friendly model
+                  <Heading as="h1" className="mt-[5px] !text-white-A700_fc !text-[44px]">
+                  Innovation
                   </Heading>
                   <Text as="p" className="mt-[3px] !text-xl">
-                    Gesture Nexus provides quality services with transparent pricing and personalized attention for
-                    businesses of all sizes
+                  Push the boundaries of traditional legal practice, unlocking new possibilities.
                   </Text>
-                  <Heading as="h1" className="mt-2.5 !text-white-A700_fc !text-[44px]">
-                    Strategic approach
+                  <Heading as="h1" className="mt-[15px] !text-white-A700_fc !text-[44px]">
+                  Integration
                   </Heading>
                   <Text as="p" className="mt-[5px] !text-xl">
-                    By implementing a strategic approach, you can out compete your rivals and achieve success
-                    efficiently and effectively.{" "}
+                  Inculcate technology into your workflow, ensuring smooth operation
                   </Text>
-                  <div className="self-stretch mt-[5px]">
+                  <div className="self-stretch mt-[15px]">
                     <div className="flex flex-col items-start">
                       <Heading as="h1" className="!text-white-A700_fc !text-[44px] z-[1]">
-                        Committed timelines
+                      Collaboration
                       </Heading>
                       <Text as="p" className="mt-[-6px] !text-xl">
-                        At Gesture Nexus, we take pride in our ability to meet deadlines and go above and beyond to
-                        ensure our customers are satisfied with our work.
+                      Foster teamwork and connectivity, enabling effortless communication
                       </Text>
                     </div>
                   </div>
-                  <Heading as="h1" className="mt-[19px] !text-white-A700_fc !text-[44px] z-[1]">
-                    Quality services
+                  <Heading as="h1" className="mt-[15px] !text-white-A700_fc !text-[44px] z-[1]">
+                  Efficiency
                   </Heading>
                   <Text as="p" className="!text-xl">
-                    Trust us to provide you with the quality service you deserve.
+                  Maximize productivity, freeing up valuable time to focus on what truly matters.
+                  </Text>
+                  <Heading as="h1" className="mt-[15px] !text-white-A700_fc !text-[44px] z-[1]">
+                  Value for Investment
+                  </Heading>
+                  <Text as="p" className="!text-xl">
+                  Tangible returns on investment, that deliver functionality and ROI.
                   </Text>
                 </div>
               </div>
